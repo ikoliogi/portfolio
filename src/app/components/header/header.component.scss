@@ -1,0 +1,29 @@
+nav {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  #menu {
+    li {
+      margin: 10px 20px;
+      cursor: pointer;
+    }
+  }
+}
+#flip{
+  height: 40vh;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 40vh;
+  font-size: 20px;
+}
+#title{
+  margin: 100px 0;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+}
+#title:before, #title:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: solid 1px black;
+  margin: auto;
+}
